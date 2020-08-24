@@ -1,4 +1,53 @@
-## Hello world
+## Hello world в IntellijIDEA
+01. Создаем новый проект (при следующем запуске он откроется сразу)\
+![new project](images/1.JPG)
+
+02. В окне "New project" выбираем "Java", и проверяем заполнено ли поле "Project SDK" (в нём будет версия джавы, 
+либо "No SDK" - если что-то не так с установленной Java JDK)\
+![new project](images/2.JPG)
+
+03. В следующем окне просто жмём next\
+![new project](images/3.JPG)
+
+04. Вводим имя проекта `hello` в поле "Project name"\
+![new project](images/4.JPG)
+
+05. Создан пустой проект\
+![new project](images/5.JPG)
+
+06. В "дереве" проекта выбираем папку `src` и правым кликом по ней открываем контекстное меню `New > Package`\
+![new project](images/6.JPG)
+
+07. Вводим имя пакета `app`, жмём ok\
+![new project](images/7.JPG)
+
+08. Теперь в дереве выбираем `app` и в контекстном меню `New > Java Class`\
+![new project](images/8.JPG)
+
+09. Вводим имя класса `Hello`\
+![new project](images/9.JPG)
+
+10. Появится пустой класс, в который нужно добавить код
+```java
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
+    }
+```
+как в примере ниже\
+![new project](images/11.JPG)
+
+11. Что бы запустить программу из среды можно нажать **Ctrl+Shift+F10** либо выбрать "Run" открыв контекстное меню для файла Hello\
+![new project](images/12.JPG)
+
+12. В нижней части окна появится окно консоли с результатом выполнения программы\
+![new project](images/13.JPG)
+
+## Запуск из терминала
+***TODO***
+
+![new project](images/14.JPG)
+
+![new project](images/15.JPG)
 
 
 ## Новый класс Greeter
